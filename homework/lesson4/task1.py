@@ -4,9 +4,9 @@
 from random import randint
 
 random_number = str(randint(1, 10))
-guess_number = input('Guess a number between 1 nad 10, NO DECIMALS: ')
+guess_number = input("Guess a number between 1 and 10, NO DECIMALS: ")
 
 if random_number == guess_number:
-    print(f'Congrats! The number is {random_number}')
+    print(f"Congratulations! The number was indeed {random_number} :D")
 else:
-    print(f'Wrong! The number was {random_number}.')
+    print(f"Wrong! :( The number was {random_number}.")
