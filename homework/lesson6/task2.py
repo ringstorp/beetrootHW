@@ -2,6 +2,7 @@
 #then computes and returns the total price of stock.
 
 
+
 from collections import Counter
 
 stock = {
